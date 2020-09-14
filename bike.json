@@ -1,0 +1,11 @@
+var c1=yamaha;
+var c2=royal enfield;
+{"bikes":[
+    {"company": c1,
+    "model":["FZ","FZS","R15"]
+    },
+    {"company": c2,
+    "model":["BULLET","THUNDERBIRD","HIMALAYAN"]
+    }
+    ]
+    }
