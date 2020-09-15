@@ -1,8 +1,8 @@
 # JSON-exercises
-##1.Employee details
+## 1.Employee details
 
 
-##2.Signupform
+## 2.Signupform
 
 
-##3.Bike details
+## 3.Bike details
