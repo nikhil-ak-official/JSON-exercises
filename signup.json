@@ -1,6 +1,6 @@
 {
     "email": "dhn@gmail.com",
-    "password": "sdufhdhs",
+    "password": "sdhdhs",
     "DOB": "MM/DD/YYYY",
     "gender":["male","female"],
     "not a robot": [true,false]
