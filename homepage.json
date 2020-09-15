@@ -1,0 +1,138 @@
+Slider1 =
+	'{"imageurl":["url1","url2","url3"],
+"alt": ["text1", "text2", "text3"]
+}
+'
+Shop By Category=
+'{"dropdownlist":
+    [
+        {
+            "category":"Fruits & Vegetables",
+            "subcategories":["Herb","Fresh Fruit","Organic"]
+        },
+        {
+            "category":"Milk & Milk Products",
+            "subcategories":["Herb","Fresh Fruit","Organic"]
+        }
+    ]
+        
+}'
+Featured products =
+	'{"featuredproducts": [{
+			"productname": "almond",
+			"brandname": "tulsi california",
+			"packsize": "200g",
+			"price": "₹150",
+			"discount": "15% Off",
+			"imageurl": "images/product01.png",
+			"alt": "imageproduct1"
+		},
+		{
+			"productname": "almond",
+			"brandname": "tulsi california",
+			"packsize": "200g",
+			"price": "₹150",
+			"discount": "15% Off",
+			"imageurl": "images/product02.png",
+			"alt": "imageproduct2"
+		}
+	]
+}
+'
+Slider2 =
+	'{"imageurl":["url1","url2","url3"],
+"alt": ["text1", "text2", "text3"]
+}
+'
+Fruits & Vegetables =
+    '{"fruits&vegetables":
+        [
+            {"name": "BELL PEPPER",
+			"oldprice": "$120.00",
+			"newprice": "₹80.00",
+			"discount": "30% Off",
+			"image": "images/product01.png",
+			"alt": "bell pepper",
+			"menulogo": "images/menu.png",
+			"alt": "menu",
+			"buynowlogo": "images/buynow.png",
+			"alt": "buynow",
+			"wishlistlogo": "images/wishlis.png",
+			"alt": "wishlist"
+		    },
+		{
+			"name": "STRAWBERRY ",
+			"oldprice": null,
+			"newprice": "₹120.00",
+			"discount": null,
+			"image": "images/product01.png",
+			"alt": "strawberry",
+			"menulogo": "images/menu.png",
+			"alt": "menu",
+			"buynowlogo": "images/buynow.png",
+			"alt": "buynow",
+			"wishlistlogo": "images/wishlis.png",
+			"alt": "wishlist"
+		}
+	]
+}
+'
+Popular Brands =
+	'{"popular brands": {
+		"brandlogos": ["image1", "image2"],
+		"alt": ["aashirvaad", "amul"]
+	}
+}
+'
+Home Appliances =
+	'{"homeappliances": [{
+			"product": "TV",
+			"brand": "SAMSUNG",
+			"oldprice": "₹1200.00",
+			"newprice": "₹8000.00",
+			"discount": "30% Off",
+			"image": "images/product01.png",
+			"alt": "Tv",
+			"menulogo": "images/menu.png",
+			"alt": "menu",
+			"buynowlogo": "images/buynow.png",
+			"alt": "buynow",
+			"wishlistlogo": "images/wishlis.png",
+			"alt": "wishlist"
+		},
+		{
+			"product": "FAN",
+			"brand": "V-GUARD",
+			"oldprice": "₹2500.00",
+			"newprice": "₹1650.00",
+			"discount": "30% Off",
+			"image": "images/product02.png",
+			"alt": "FAN",
+			"menulogo": "images/menu.png",
+			"alt": "menu",
+			"buynowlogo": "images/buynow.png",
+			"alt": "buynow",
+			"wishlistlogo": "images/wishlis.png",
+			"alt": "wishlist"
+		}
+	]
+}
+'
+Snacks & Branded Food =
+	'{"snacks&brandedfood": [{
+			"productname": "almond",
+			"brandname": "tulsi california",
+			"packsize": "200g",
+			"image": "images/product01",
+			"discount": "15% Off"
+		},
+		{
+			"productname": "almond",
+			"brandname": "tulsi california",
+			"packsize": "200g",
+			"image": "images/product02",
+			"discount": "15% Off"
+		}
+	]
+
+
