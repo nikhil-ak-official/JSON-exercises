@@ -8,12 +8,28 @@ Shop By Category=
     [
         {
             "category":"Fruits & Vegetables",
-            "subcategories":["Herb","Fresh Fruit","Organic"]
+			"subcategories":
+			[
+				{"name":"Herb",
+					"url":"herb.url"
+				},
+				{"name":"Organic",
+					"url":"organic.url"
+				}
+			]
         },
         {
             "category":"Milk & Milk Products",
-            "subcategories":["Herb","Fresh Fruit","Organic"]
-        }
+			"subcategories":
+			[
+				{"name":"Herb",
+					"url":"herb.url"
+				},
+				{"name":"Organic",
+					"url":"organic.url"
+				}
+			]
+		}
     ]
         
 }'
