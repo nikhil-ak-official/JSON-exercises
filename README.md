@@ -12,3 +12,7 @@ Exercise on JSON regarding different fields present in a sign up form
 
 Exercise on JSON using the details of bike which belong to two companies
 
+## 4.Dynamic JSON
+
+Exercise on JSON using the dynamic contents of a webpage
+
