@@ -1,37 +1,31 @@
 Slider1 =
-	'{"imageurl":["url1","url2","url3"],
-"alt": ["text1", "text2", "text3"]
-}
-'
+	'{"offers": 
+		[
+			{"imagel": "image1url",
+			"offerurl": "offer1url"},
+			{"imagel": "image1url",
+			"offerurl": "offer1url"}
+			]
+	}'
 Shop By Category=
-'{"dropdownlist":
+'{"Fruits & Vegetables":
     [
-        {
-            "category":"Fruits & Vegetables",
-			"subcategories":
-			[
 				{"name":"Herb",
 					"url":"herb.url"
 				},
 				{"name":"Organic",
 					"url":"organic.url"
 				}
-			]
-        },
-        {
-            "category":"Milk & Milk Products",
-			"subcategories":
-			[
+	],
+	"Milk & Milk Products": 
+	[
 				{"name":"Herb",
 					"url":"herb.url"
 				},
 				{"name":"Organic",
 					"url":"organic.url"
 				}
-			]
-		}
-    ]
-        
+	]
 }'
 Featured products =
 	'{"featuredproducts": [{
@@ -55,11 +49,27 @@ Featured products =
 	]
 }
 '
+shopcategoryicon= '{
+	"Milk & Milk Products": {
+		"image":"image1",
+		"url":"url1"
+	},
+	"Fruits & Vegetables": {
+		"image":"image2",
+		"url":"url2"
+	}
+}'
+
+	
 Slider2 =
-	'{"imageurl":["url1","url2","url3"],
-"alt": ["text1", "text2", "text3"]
-}
-'
+'{"offers": 
+	[
+		{"imagel": "image1url",
+		"offerurl": "offer1url"},
+		{"imagel": "image1url",
+		"offerurl": "offer1url"}
+		]
+}'
 Fruits & Vegetables =
     '{"fruits&vegetables":
         [
@@ -68,13 +78,13 @@ Fruits & Vegetables =
 			"newprice": "₹80.00",
 			"discount": "30% Off",
 			"image": "images/product01.png",
-			"alt": "bell pepper",
+			"alt1": "bell pepper",
 			"menulogo": "images/menu.png",
-			"alt": "menu",
+			"alt2": "menu",
 			"buynowlogo": "images/buynow.png",
-			"alt": "buynow",
+			"alt3": "buynow",
 			"wishlistlogo": "images/wishlis.png",
-			"alt": "wishlist"
+			"alt4": "wishlist"
 		    },
 		{
 			"name": "STRAWBERRY ",
@@ -82,9 +92,9 @@ Fruits & Vegetables =
 			"newprice": "₹120.00",
 			"discount": null,
 			"image": "images/product01.png",
-			"alt": "strawberry",
+			"alt1": "strawberry",
 			"menulogo": "images/menu.png",
-			"alt": "menu",
+			"alt2": "menu",
 			"buynowlogo": "images/buynow.png",
 			"alt": "buynow",
 			"wishlistlogo": "images/wishlis.png",
@@ -94,12 +104,16 @@ Fruits & Vegetables =
 }
 '
 Popular Brands =
-	'{"popular brands": {
-		"brandlogos": ["image1", "image2"],
-		"alt": ["aashirvaad", "amul"]
-	}
-}
-'
+	'{"popular brands": 
+		[
+			{"brandlogos": "image1",
+				"alt": "aashirvaad"
+			 }
+			 {"brandlogos": "image2",
+				"alt": "amul"
+			 }
+		]
+	}'
 Home Appliances =
 	'{"homeappliances": [{
 			"product": "TV",
@@ -148,7 +162,7 @@ Snacks & Branded Food =
 			"packsize": "200g",
 			"image": "images/product02",
 			"discount": "15% Off"
-		}
-	]
+		}]
+	}'
 
 
