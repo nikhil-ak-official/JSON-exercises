@@ -22,13 +22,12 @@
     "state":"dsmfdsd"
     }
     }
-    ]
-    },
-{"signup":{
+    ],
+    "signup":{
     "email": "dhn@gmail.com",
     "password": "sdhdhs",
     "DOB": "MM/DD/YYYY",
     "gender":["male","female"],
     "not a robot": [true,false]
-}
+    }
 }
